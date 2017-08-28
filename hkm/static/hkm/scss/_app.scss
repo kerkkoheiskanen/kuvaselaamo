@@ -120,6 +120,8 @@ color: #555 !important;
   width: 100%;
   height: 100%;
   fill: currentColor;
+  /* ie11 compatibility fix here */
+  max-height: 59px;
 }
 
 /* Container */

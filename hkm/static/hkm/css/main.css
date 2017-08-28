@@ -6081,7 +6081,9 @@ input[type="text"]:-ms-input-placeholder {
   display: block;
   width: 100%;
   height: 100%;
-  fill: currentColor; }
+  fill: currentColor;
+  /* ie11 compatibility fix here */
+  max-height: 59px; }
 
 /* Container */
 @media (min-width: 1200px) {
